@@ -1,1 +1,2 @@
-module.exports = 'ECOBASE_SENA'
+module.exports =
+  'Fundamentos de un Sistema de Gestión de Seguridad de la Información'

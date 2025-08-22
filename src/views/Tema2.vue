@@ -5,7 +5,15 @@
     .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 2
-      h1 Titulo_de_primer_nivel
+      h1 Seguridad de la información
+
+    separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.1 Concepto
+    
+    separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 2.2 Principios
 
 
 </template>
