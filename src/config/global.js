@@ -218,7 +218,7 @@ export default {
     {
       termino: 'Activos de información',
       significado:
-        'Elementos que poseen valor para una organización, como datos, software, hardware, personas o servicios. Identificarlos y clasificarlos es fundamental para su protección dentro del sistema de seguridad.',
+        'Elementos que poseen valor para una organización, como datos, <em>software</em>, <em>hardware</em>, personas o servicios. Identificarlos y clasificarlos es fundamental para su protección dentro del sistema de seguridad.',
     },
     {
       termino: 'CIA (Confidencialidad, Integridad, Disponibilidad)',
@@ -269,7 +269,7 @@ export default {
   referencias: [
     {
       referencia:
-        'GRCTools. (s.f.). Riesgos IT y Seguridad con el Software GRC inteligente.',
+        'GRCTools. (s.f.). Riesgos IT y Seguridad con el <em>Software</em> GRC inteligente.',
       link:
         'https://grctools.software/soluciones/riesgos/riesgos-it-seguridad-de-la-informacion/',
     },

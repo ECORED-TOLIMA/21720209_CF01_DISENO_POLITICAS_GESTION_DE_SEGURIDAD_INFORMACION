@@ -225,14 +225,14 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Excelente trabajo. También pueden ser datos, procesos, personas, software o conocimiento.',
+            'Excelente trabajo. También pueden ser datos, procesos, personas, <em>software</em> o conocimiento.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
           texto:
-            'El SGSI es únicamente un software para instalar en los computadores de la empresa.',
+            'El SGSI es únicamente un <em>software</em> para instalar en los computadores de la empresa.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -240,7 +240,7 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Excelente trabajo. Es un sistema de gestión que incluye políticas, procedimientos y controles, no solo software.',
+            'Excelente trabajo. Es un sistema de gestión que incluye políticas, procedimientos y controles, no solo <em>software</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },

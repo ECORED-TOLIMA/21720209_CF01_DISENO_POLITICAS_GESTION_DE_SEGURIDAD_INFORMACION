@@ -22,3 +22,150 @@
   background-size: cover
   background-position: center
   background-repeat: no-repeat
+
+.BG01
+  background-image: url("../assets/curso/temas/BG01.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BG02
+  background-image: url("../assets/curso/temas/BG02.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+//- Modulo cajones
+.cajon.C01
+  background-color: #DAF5FE
+.cajon.C02
+  background-color: #FFCFF3  
+
+.cajon.BG05
+  background-image: url("../assets/curso/temas/BG05.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+// Modulo tarjetas
+.tarjeta--C01
+  background-color: #0653AE
+.tarjeta--C02
+  background-color: #8F006F
+.tarjeta--C03
+  background-color: #DAF5FE
+.tarjeta--C04
+  background-color: #C7DDE2
+
+.tarjeta--BG03
+  background-image: url("../assets/curso/temas/BG03.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  h5, p, span
+    color: #fff
+
+.tarjeta--BG04
+  background-image: url("../assets/curso/temas/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+//- Modulo listas 
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+li 
+  .lista-ol--cuadro__vineta
+    span
+      color: $black
+
+// Modulo versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+//- Modulo tablas
+.table
+  width: 100%
+  table-layout: fixed
+  border-collapse: collapse
+
+@media (max-width: 992px) 
+  thead, tbody, th, td, figcaption
+    font-size: 11px
+
+// modulo tabs
+.tabs-c__content-item
+  background-color: #FFCFF3
+.tabs-c__tab
+  background-color: #C7DDE2
+.tabs-c__tab--active
+  background-color: #fff
+.tabs-b__tab--active:hover
+  background-color: #FFE4E4
+.tabs-b__content-item
+  background-color: #DEFFF4
+.tabs-b__tab
+  background-color: #FFE4E4
+.tabs-b__tab--active
+  background-color: #DEFFF4
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+
+//Modulo lineas de tiempo
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: #0EF58B
+  border: none
+
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #FFCFF3 !important 
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #C7DDE2
+.tarjeta.tarjeta--gris
+  background-color: #C7DDE2
+
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #FFCFF3
+  .acordion__accion__btn--b
+    background-color: #0EF58B  
+  .acordion__accion__btn--a
+    background-color: #0EF58B
+
+//- pasosb color fondo btn left and right
+.pasos-b__header__btn--left, .pasos-b__header__btn--right, 
+  background-color: #0EF58B
+  border: none
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  background-color: #614C8D
+  border: #614C8D
+.pasos-b__header__item--before .pasos-b__header__item__dot i
+  color: #fff
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+  background-color: #9D9D9D 
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+
+//- Modulo Slyders 
+.slyder-f
+  .fa-chevron-left, .fa-chevron-right
+  color: #0EF58B
