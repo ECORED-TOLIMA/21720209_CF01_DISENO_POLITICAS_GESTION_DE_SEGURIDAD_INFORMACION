@@ -69,13 +69,13 @@
                 ul.lista-ul.mb-0(data-aos="fade-down")
                   li
                     i.lista-ul__vineta
-                    | Uso de contraseñas seguras para acceso a sistemas.
+                    p.mb-0 Uso de contraseñas seguras para acceso a sistemas.
                   li
                     i.lista-ul__vineta
-                    | Restringir el acceso a datos contables solo al área financiera.
+                    p.mb-0 Restringir el acceso a datos contables solo al área financiera.
                   li
                     i.lista-ul__vineta
-                    | Implementar roles diferenciados en <em>software</em> de gestión.
+                    p.mb-0 Implementar roles diferenciados en <em>software</em> de gestión.
             .col-12.mb-0(data-aos="fade-up")
               figure
                 img(src='@/assets/curso/temas/tema2/img05.jpg', alt='Imagen decorativa')

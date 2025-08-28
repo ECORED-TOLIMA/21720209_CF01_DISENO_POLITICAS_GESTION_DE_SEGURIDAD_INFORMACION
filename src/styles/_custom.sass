@@ -5,9 +5,9 @@
     top: 15%
     right: 65%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 65%
+    top: 30%
     right: 15%
 
 
@@ -16,6 +16,11 @@
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
   
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner.png") !important
@@ -23,23 +28,31 @@
   background-position: center
   background-repeat: no-repeat
 
-.BG01
-  background-image: url("../assets/curso/temas/BG01.png")
-  background-size: cover 
-  background-repeat: no-repeat
-  background-position: center
 
-.BG02
-  background-image: url("../assets/curso/temas/BG02.png")
-  background-size: cover 
-  background-repeat: no-repeat
-  background-position: center
 
 //- Modulo cajones
 .cajon.C01
   background-color: #DAF5FE
 .cajon.C02
   background-color: #FFCFF3  
+
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/BG01.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.tarjeta--BG02
+  background-image: url("../assets/curso/temas/BG02.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
 .cajon.BG05
   background-image: url("../assets/curso/temas/BG05.png")
@@ -65,7 +78,7 @@
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
-  h5, p, span
+  h4, p, span
     color: #fff
 
 .tarjeta--BG04
@@ -148,6 +161,7 @@ li
     background-color: #FFCFF3
   .acordion__accion__btn--b
     background-color: #0EF58B  
+    border: none 
   .acordion__accion__btn--a
     background-color: #0EF58B
 

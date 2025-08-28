@@ -17,9 +17,9 @@
         p(data-aos="fade-down") El punto de partida en un proceso de formación sobre gestión de la información, debe centrarse en los activos de información, ya que son ellos los que dan sentido a cualquier esfuerzo en materia de protección. No es posible implementar medidas de seguridad ni estructurar un sistema de gestión, si previamente no se ha definido qué se debe salvaguardar. Los activos representan el recurso esencial que se busca proteger y su identificación, clasificación y valoración, constituyen la base sobre la cual se toman decisiones estratégicas de seguridad. En este sentido, comenzar por los activos de información, permite establecer un enfoque claro y coherente, donde las acciones de protección no se aplican de forma genérica, sino con base en el valor real que cada activo representa para la organización.
         p.mb-5(data-aos="fade-down") A continuación, se presentan dos definiciones, la primera, teniendo de base el conocimiento y experiencia que pueden tener aquellas personas que ya entienden, conocen o han escuchado sobre seguridad de la información y la segunda, teniendo de base aquellas personas que no han escuchado del tema, pero que trabajan dentro de una organización:
 
-    .row.justify-content-center.mb-5(data-aos="flip-up")
+    .row.justify-content-center.mb-4(data-aos="flip-up")
       .col
-        .tarjeta--container.row.mb-5
+        .tarjeta--container.row
           .col-xl.col-lg-6.tarjeta.tarjeta--C01.p-5
             .row.justify-content-center.mb-3
               .col-lg-4.col-4
@@ -38,16 +38,18 @@
             h4.text-center.text-white(data-aos="fade-down") Definición general
             p.mb-0.text-white(data-aos="fade-down") Se puede llamar activo de información a todos aquellos recursos que usan las empresas para guardar, manejar o compartir información de interés para la organización. Hay que tener en cuenta, que la importancia no solo radica en los computadores o los archivos contenidos, aquí también entran los manuales del trabajo, las hojas de cálculo, los correos, las claves, incluso la experiencia y el conocimiento que tienen los empleados sobre su trabajo y todo aquello que tenga algún grado de información de la empresa y que permita su funcionamiento.
     
-    .row.justify-content-center.BG01.mb-0(style="display: flex; width: 100%; margin: auto;")
-      .col-lg-10.col-12
+    .tarjeta.tarjeta--BG01.p-4.p-lg-5.mb-0
+      .col-12
         .row.justify-content-center
-          .col-lg-6.col-12.order-lg-1.order-2
-            p(data-aos="fade-down") Todos estos activos son importantes para que la empresa funcione correctamente, de ahí que se debe garantizar su seguridad; de lo contrario, si se presenta afectación en alguno de ellos, se podrían presentar pérdidas para la organización, que podrían ir desde obstruir un proceso, demorar un servicio, cancelar un negocio, hasta la liquidación misma de la actividad comercial.
-            p(data-aos="fade-down") Los activos de información son recursos que contienen datos valiosos para la organización y para la comunidad, por ello todas las empresas tienen que tenerlos identificados, actualizados y protegidos.
-            p(data-aos="fade-down") Los activos de información se clasifican en diferentes tipos según su naturaleza. Esta tipología facilita su identificación, protección y gestión adecuada dentro de las organizaciones.
-          .col-lg-6.col-12.order-lg-2.order-1.mb-3
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/temas/tema1/img04.png', alt='Imagen decorativa')
+          .col-lg-10.col-12
+            .row.justify-content-center
+              .col-lg-6.col-12.order-lg-1.order-2
+                p(data-aos="fade-down") Todos estos activos son importantes para que la empresa funcione correctamente, de ahí que se debe garantizar su seguridad; de lo contrario, si se presenta afectación en alguno de ellos, se podrían presentar pérdidas para la organización, que podrían ir desde obstruir un proceso, demorar un servicio, cancelar un negocio, hasta la liquidación misma de la actividad comercial.
+                p(data-aos="fade-down") Los activos de información son recursos que contienen datos valiosos para la organización y para la comunidad, por ello todas las empresas tienen que tenerlos identificados, actualizados y protegidos.
+                p(data-aos="fade-down") Los activos de información se clasifican en diferentes tipos según su naturaleza. Esta tipología facilita su identificación, protección y gestión adecuada dentro de las organizaciones.
+              .col-lg-6.col-12.order-lg-2.order-1.mb-3
+                figure(data-aos="fade-up")
+                  img(src='@/assets/curso/temas/tema1/img04.png', alt='Imagen decorativa')
     
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -118,7 +120,7 @@
               tr
                 td.text-bold(data-aos="fade-down") <em>Software</em>
                 td(data-aos="fade-down") Programas, aplicaciones o sistemas utilizados para gestionar información.
-                td(data-aos="fade-down") Sistemas contables (Siigo), CRM, aplicaciones de facturación, licencias de Windows, plataformas de ventas, software de diseño o gestión de inventario.
+                td(data-aos="fade-down") Sistemas contables (Siigo), CRM, aplicaciones de facturación, licencias de Windows, plataformas de ventas, <em>software</em> de diseño o gestión de inventario.
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") <em>Hardware</em>
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Dispositivos físicos que procesan, almacenan o transmiten información.
@@ -134,7 +136,7 @@
               tr
                 td.text-bold(data-aos="fade-down") Conocimiento
                 td(data-aos="fade-down") Saber técnico, experiencia y propiedad intelectual asociada al negocio.
-                td(data-aos="fade-down") Manuales internos, procedimientos, know-how, recetas, metodologías propias, procesos operativos documentados, instrucciones técnicas.
+                td(data-aos="fade-down") Manuales internos, procedimientos, <em>know-how</em>, recetas, metodologías propias, procesos operativos documentados, instrucciones técnicas.
         figcaption Elaboración propia con base en la norma ISO/IEC 27002
     
     .row.justify-content-center.mb-0
@@ -175,39 +177,42 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img06.svg', alt='Imagen decorativa')
 
-    .row.justify-content-center.BG02.mb-5(style="display: flex; width: 100%; margin: auto;")
-      p.mb-4(data-aos="fade-down") A continuación, se comparten los campos que se recomiendan para registrar los activos de información. Cabe destacar que muchas veces, estos campos pueden variar según las directrices de las empresas o la norma utilizada, pero por lo general tratan la misma información y son de gran ayuda para el inventario de activos:
-      .col-lg-10.col-12
+    .tarjeta.tarjeta--BG02.p-4.p-lg-5.mb-5
+      .col-12
         .row.justify-content-center
-          .col-lg-6.col-12.order-lg-1.order-2
-            ul.lista-ul--color.mb-0(data-aos="fade-down")
-              li.mb-2
-                i.fas.fa-asterisk
-                | Código o identificación del activo.
-              li.mb-2
-                i.fas.fa-asterisk
-                | Tipo de activo.
-              li.mb-2
-                i.fas.fa-asterisk
-                | Descripción.
-              li.mb-2
-                i.fas.fa-asterisk
-                | Ubicación.
-              li.mb-2
-                i.fas.fa-asterisk
-                | Responsable del activo.
-              li.mb-2
-                i.fas.fa-asterisk
-                | Valor o criticidad.
-              li.mb-2
-                i.fas.fa-asterisk
-                | Clasificación de seguridad (confidencial, pública, restringida...).
-              li.mb-3
-                i.fas.fa-asterisk
-                | Estado de conservación o uso.
-          .col-lg-5.col-12.order-lg-2.order-1.mb-3
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/temas/tema1/img07.jpg', alt='Imagen decorativa')
+          .col-12
+            p.mb-4(data-aos="fade-down") A continuación, se comparten los campos que se recomiendan para registrar los activos de información. Cabe destacar que muchas veces, estos campos pueden variar según las directrices de las empresas o la norma utilizada, pero por lo general tratan la misma información y son de gran ayuda para el inventario de activos:
+            .col-lg-10.col-12
+              .row.justify-content-center
+                .col-lg-6.col-12.order-lg-1.order-2
+                  ul.lista-ul--color.mb-0(data-aos="fade-down")
+                    li.mb-2
+                      i.fas.fa-asterisk
+                      | Código o identificación del activo.
+                    li.mb-2
+                      i.fas.fa-asterisk
+                      | Tipo de activo.
+                    li.mb-2
+                      i.fas.fa-asterisk
+                      | Descripción.
+                    li.mb-2
+                      i.fas.fa-asterisk
+                      | Ubicación.
+                    li.mb-2
+                      i.fas.fa-asterisk
+                      | Responsable del activo.
+                    li.mb-2
+                      i.fas.fa-asterisk
+                      | Valor o criticidad.
+                    li.mb-2
+                      i.fas.fa-asterisk
+                      | Clasificación de seguridad (confidencial, pública, restringida...).
+                    li.mb-3
+                      i.fas.fa-asterisk
+                      | Estado de conservación o uso.
+                .col-lg-5.col-12.order-lg-2.order-1.mb-3
+                  figure(data-aos="fade-up")
+                    img(src='@/assets/curso/temas/tema1/img07.jpg', alt='Imagen decorativa')
 
     p.mb-5(data-aos="fade-down") Con el siguiente ejemplo, se da una idea de cómo se podría llenar una tabla que contenga el registro de los activos de información de una pyme:
 

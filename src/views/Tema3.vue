@@ -22,19 +22,19 @@
 
     LineaTiempoE.color-primario.mb-5
       .row.justify-content-center(titulo="01" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Definición técnica
           p Consiste en identificar, priorizar, controlar y supervisar las amenazas que pueden afectar los sistemas de información y los activos digitales de una organización (IBM, 2024b).
           p La gestión de riesgos en ciberseguridad es un proceso enfocado en identificar, analizar, medir y controlar los riesgos que afectan la seguridad de la información. Su propósito es anticiparse a las amenazas mediante la implementación de controles preventivos que reduzcan su impacto. Esta gestión se aplica en diversos ámbitos de la organización y requiere que los responsables reconozcan los riesgos que pueden afectar sus objetivos. De hecho, más del 70 % de las empresas ha experimentado problemas relacionados con la ciberseguridad, sin importar su tamaño o sector (Grupo Cibernos, s.f.).
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema3/img02.svg', alt='Imagen decorativa')
 
       .row.justify-content-center(titulo="02" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Definición general
           p La gestión de riesgos en seguridad de la información consiste en identificar los peligros que pueden afectar la información de una empresa, tales como los ataques por internet, los errores humanos o la pérdida de datos, entre otros. Esta gestión sirve para que se puedan tomar decisiones y aplicar medidas que ayuden a prevenir esos problemas antes de que ocurran, protegiendo así la información del negocio y evitando pérdidas o interrupciones.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema3/img03.svg', alt='Imagen decorativa')
 
@@ -69,37 +69,39 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Tipos de riesgo
     
-    .row.justify-content-center.BG01.mb-5(style="display: flex; width: 100%; margin: auto;")
+    .tarjeta.tarjeta--BG01.p-4.p-lg-5.mb-5
       .col-12
         .row.justify-content-center
-          .col-lg-7.col-12.order-lg-1.order-2
-            p(data-aos="fade-down") Al buscar en diferentes fuentes, es fácil deducir que hay múltiples formas de clasificar los riesgos de seguridad de la información, esto se da por la diversidad de enfoques y contextos organizacionales. Lo variado de estas clasificaciones es porque los riesgos pueden provenir de ámbitos técnicos, humanos, físicos, procedimentales o de terceros, según el objetivo o la experiencia de cada modelo de gestión. Esta multiplicidad de perspectivas se confirma en estudios académicos que revisan y comparan las diferentes taxonomías de riesgos en entornos de seguridad de la información (Rabitti et al., 2025).
-            p(data-aos="fade-down") Por lo anterior, se relaciona una clasificación detallada de los tipos de riesgos en seguridad de la información, donde se presenta una visión amplia y actualizada de las principales amenazas, tales como ciberataques, brechas de seguridad, fallos tecnológicos o riesgos de cumplimiento, que reflejan la diversidad de escenarios que enfrentan las organizaciones en la práctica y cuya perspectiva aplicada facilita la identificación y el manejo de riesgos en entornos reales (GRCTools, s.f.): 
-          .col-lg-4.col-12.order-lg-2.order-1.mb-3
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/temas/tema3/img05.png', alt='Imagen decorativa')
+          .col-12
+            .row.justify-content-center
+              .col-lg-7.col-12.order-lg-1.order-2
+                p(data-aos="fade-down") Al buscar en diferentes fuentes, es fácil deducir que hay múltiples formas de clasificar los riesgos de seguridad de la información, esto se da por la diversidad de enfoques y contextos organizacionales. Lo variado de estas clasificaciones es porque los riesgos pueden provenir de ámbitos técnicos, humanos, físicos, procedimentales o de terceros, según el objetivo o la experiencia de cada modelo de gestión. Esta multiplicidad de perspectivas se confirma en estudios académicos que revisan y comparan las diferentes taxonomías de riesgos en entornos de seguridad de la información (Rabitti et al., 2025).
+                p(data-aos="fade-down") Por lo anterior, se relaciona una clasificación detallada de los tipos de riesgos en seguridad de la información, donde se presenta una visión amplia y actualizada de las principales amenazas, tales como ciberataques, brechas de seguridad, fallos tecnológicos o riesgos de cumplimiento, que reflejan la diversidad de escenarios que enfrentan las organizaciones en la práctica y cuya perspectiva aplicada facilita la identificación y el manejo de riesgos en entornos reales (GRCTools, s.f.): 
+              .col-lg-4.col-12.order-lg-2.order-1.mb-3
+                figure(data-aos="fade-up")
+                  img(src='@/assets/curso/temas/tema3/img05.png', alt='Imagen decorativa')
     
     .tarjeta.tarjeta--BG03.p-4.p-md-5.mb-5
       LineaTiempoC.color-acento-botones(text-small)(data-aos="flip-up")
         .row(titulo="Ciberseguridad")
           .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
-            h5 Infraestructura tecnológica
-            p Riesgos derivados de fallos físicos, tecnológicos o eventos naturales que afectan los sistemas o la operación tecnológica.
-            p <b>Riesgo</b>: caídas de servidores, errores de <em>software</em>, incendios, terremotos.
-          .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
-            figure
-              img(src='@/assets/curso/temas/tema3/img06.jpg', alt='Imagen decorativa')
-        .row(titulo="Infraestructura")
-          .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
-            h5 Ciberseguridad
+            h4 Ciberseguridad
             p Amenazas digitales que pueden comprometer los sistemas o la confidencialidad de los datos.
             p <b>Riesgo</b>: <em>malware</em>, <em>phishing</em>, ataques DDoS, ingeniería social, filtración de información.
           .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img07.jpg', alt='Imagen decorativa')
+        .row(titulo="Infraestructura")
+          .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
+            h4 Infraestructura tecnológica
+            p Riesgos derivados de fallos físicos, tecnológicos o eventos naturales que afectan los sistemas o la operación tecnológica.
+            p <b>Riesgo</b>: caídas de servidores, errores de <em>software</em>, incendios, terremotos.
+          .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
+            figure
+              img(src='@/assets/curso/temas/tema3/img06.jpg', alt='Imagen decorativa')
         .row(titulo="Acceso")
           .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
-            h5 Acceso y autenticación
+            h4 Acceso y autenticación
             p Vulnerabilidades relacionadas con el ingreso indebido a sistemas o la debilidad en los mecanismos de verificación.
             p <b>Riesgo</b>: contraseñas débiles, accesos sin permisos, ausencia de autenticación multifactor.
           .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
@@ -107,7 +109,7 @@
               img(src='@/assets/curso/temas/tema3/img08.jpg', alt='Imagen decorativa')
         .row(titulo="Cumplimiento")
           .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
-            h5 Cumplimiento y regulaciones
+            h4 Cumplimiento y regulaciones
             p Incumplimiento de normativas legales o falta de políticas internas que regulen la seguridad de la información.
             p <b>Riesgo</b>: falta de cumplimiento de GDPR, HIPAA; ausencia de procedimientos documentados.
           .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
@@ -115,7 +117,7 @@
               img(src='@/assets/curso/temas/tema3/img09.jpg', alt='Imagen decorativa')
         .row(titulo="Riesgos")
           .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
-            h5 Riesgos humanos
+            h4 Riesgos humanos
             p Comportamientos, errores o negligencias del personal que exponen los sistemas o los datos a amenazas.
             p <b>Riesgo</b>: errores accidentales, empleados que actúan con intención de dañar.
           .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
@@ -123,7 +125,7 @@
               img(src='@/assets/curso/temas/tema3/img10.jpg', alt='Imagen decorativa')
         .row(titulo="Terceros")
           .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
-            h5 Terceros
+            h4 Terceros
             p Amenazas que provienen de empresas o individuos externos que acceden o manejan información de la organización.
             p <b>Riesgo</b>: fallas de proveedores, subcontratistas con manejo de datos sensibles.
           .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
@@ -172,14 +174,16 @@
           figure
             img(src='@/assets/curso/temas/tema3/img17.jpg', alt='Imagen decorativa')
     
-    .row.justify-content-center.BG02.mb-0(style="display: flex; width: 100%; margin: auto;")
+    .tarjeta.tarjeta--BG02.p-4.p-lg-5.mb-0
       .col-12
         .row.justify-content-center
-          .col-lg-7.col-12.order-lg-2.order-2
-            p(data-aos="fade-down") Identificar y comprender los diferentes tipos de riesgos en seguridad de la información, son pasos esenciales para las operaciones diarias, en las diferentes empresas y organizaciones. Teniendo en cuenta que la mayoría de empresas pequeñas como las pymes, carecen de infraestructura tecnológica robusta o de personal especializado, es de mucha ayuda conocer las amenazas más comunes, con el fin de que estén alertas y puedan ir tomando decisiones informadas, según las situaciones que se vayan presentando; asimismo, poder ir implementando medidas básicas de protección y previniendo pérdidas que puedan afectar gravemente la sostenibilidad y continuidad de las empresas. De ahí la importancia de que las directivas se sintonicen con una conciencia y acción temprana, para fortalecer la competitividad, frente a los clientes, aliados y entornos digitales cada vez más exigentes.
-          .col-lg-5.col-12.order-lg-1.order-1.mb-3
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/temas/tema3/img18.jpg', alt='Imagen decorativa')
+          .col-12
+            .row.justify-content-center
+              .col-lg-7.col-12.order-lg-2.order-2
+                p(data-aos="fade-down") Identificar y comprender los diferentes tipos de riesgos en seguridad de la información, son pasos esenciales para las operaciones diarias, en las diferentes empresas y organizaciones. Teniendo en cuenta que la mayoría de empresas pequeñas como las pymes, carecen de infraestructura tecnológica robusta o de personal especializado, es de mucha ayuda conocer las amenazas más comunes, con el fin de que estén alertas y puedan ir tomando decisiones informadas, según las situaciones que se vayan presentando; asimismo, poder ir implementando medidas básicas de protección y previniendo pérdidas que puedan afectar gravemente la sostenibilidad y continuidad de las empresas. De ahí la importancia de que las directivas se sintonicen con una conciencia y acción temprana, para fortalecer la competitividad, frente a los clientes, aliados y entornos digitales cada vez más exigentes.
+              .col-lg-5.col-12.order-lg-1.order-1.mb-3
+                figure(data-aos="fade-up")
+                  img(src='@/assets/curso/temas/tema3/img18.jpg', alt='Imagen decorativa')
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")

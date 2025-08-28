@@ -61,56 +61,56 @@
             SlyderF.order-lg-1.order-2(columnas="col-lg-6 col-xl-6")
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
-                  .col-lg-8.col-sm-4.col-6
+                  .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img05.svg' alt='AvatarTop')
                 h5 Enfoque basado en riesgos
                 p.mb-0 Ayuda a que se identifiquen, evalúen y se prioricen los riesgos que afectan a los activos de información de la empresa.
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
-                  .col-lg-8.col-sm-4.col-6
+                  .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img06.svg' alt='AvatarTop')
                 h5 Mejora continua
                 p.mb-0 Es el proceso que favorece la revisión constante del sistema, de tal manera que se fortalezca su eficacia, frente a las diversas amenazas, principalmente frente a las nuevas o a las que son cambiantes.
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
-                  .col-lg-8.col-sm-4.col-6
+                  .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img07.svg' alt='AvatarTop')
                 h5 Marco normativo estructurado
                 p.mb-0 Con esto se asegura el cumplimiento de estándares nacionales e internacionales y de las buenas prácticas en seguridad de la información.
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
-                  .col-lg-8.col-sm-4.col-6
+                  .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img08.svg' alt='AvatarTop')
                 h5 Participación de todos los niveles de la organización
                 p.mb-0 Es importante y a la vez recomendable para que se puede fomentar una cultura organizacional de seguridad y corresponsabilidad, entre todos los actores; de lo contrario, no tendría gracia la implementación del SGSI, si lo planteado no se va a aplicar.
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
-                  .col-lg-8.col-sm-4.col-6
+                  .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img09.svg' alt='AvatarTop')
                 h5 Documentación y trazabilidad de procesos
                 p.mb-0 Esto facilita que se puedan realizar auditorías, también mejora la toma de decisiones y minimiza los errores por falta de control
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
-                  .col-lg-8.col-sm-4.col-6
+                  .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img10.svg' alt='AvatarTop')
                 h5 Adaptabilidad al tamaño y sector de la empresa
                 p.mb-0 Lo importante de esto es que pueden ajustar diferentes organizaciones y empresas, sin importar su tamaño.
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
-                  .col-lg-8.col-sm-4.col-6
+                  .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img11.svg' alt='AvatarTop')
                 h5 Soporte para la toma de decisiones estratégicas
                 p.mb-0 Proporciona información clara sobre los riesgos y controles, que permiten alinear la seguridad con los objetivos y la actividad del negocio.
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
-                  .col-lg-8.col-sm-4.col-6
+                  .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img12.svg' alt='AvatarTop')
                 h5 Reducción de incidentes de seguridad
                 p.mb-0 Se busca eliminar o minimizar las pérdidas económicas y de reputación por accesos no autorizados, filtraciones o errores humanos, entre otros.
@@ -137,13 +137,13 @@
           template(v-slot:imagen)
             figure.mb-5
               img(src='@/assets/curso/temas/tema4/img14.svg', alt="Imagen decorativa")
-          .tarjeta.color-acento-botones.p-3(x="24.3%" y="24.5%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="24.3%" y="24.5%" numero="01")
             p Se definen los objetivos del SGSI, las políticas y los procesos para que se puedan gestionar los riesgos que se han identificado. Aquí mismo, se establecen los criterios de evaluación y los recursos que se requieren para ello.
-          .tarjeta.color-acento-botones.p-3(x="55.1%" y="24.4%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="55.1%" y="24.4%" numero="02")
             p Se implementan las políticas y los controles que se han definido, desarrollando las acciones que planificaron y aplicando las medidas de seguridad que se habían acordado.
-          .tarjeta.color-acento-botones.p-3(x="24.4%" y="75.8%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="24.4%" y="75.8%" numero="03")
             p Se le hace seguimiento al SGSI y se evalúa su desempeño, analizando cada uno de los resultados obtenidos, frente a los objetivos que se habían establecido. Dentro de este punto están las auditorías internas, la revisión de los indicadores y el análisis de los incidentes.
-          .tarjeta.color-acento-botones.p-3(x="55.1%" y="75.8%" numero="")
+          .tarjeta.color-acento-botones.p-3(x="55.1%" y="75.8%" numero="04")
             p De acuerdo a los resultados obtenidos, se van adoptando medidas correctivas o de mejora, ajustando los procesos, las políticas y los controles, de tal manera, que se vaya fortaleciendo en sistema dentro de la organización. 
 
     .row.justify-content-center.mb-0
@@ -222,7 +222,7 @@
         .row.justify-content-center
           .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
             .cajon.cajon.C02.p-0.h-100
-              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img16.svg' alt="Imagen decorativa")
+              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img21.svg' alt="Imagen decorativa")
           .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
             .cajon.cajon.C02.p-3.h-100
               h5 Decreto 1377 de 2013 
@@ -232,7 +232,7 @@
         .row.justify-content-center
           .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
             .cajon.cajon.C02.p-0.h-100
-              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img16.svg' alt="Imagen decorativa")
+              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img22.svg' alt="Imagen decorativa")
           .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
             .cajon.cajon.C02.p-3.h-100
               h5 Ley 1266 de 2008
@@ -242,7 +242,7 @@
         .row.justify-content-center
           .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
             .cajon.cajon.C02.p-0.h-100
-              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img16.svg' alt="Imagen decorativa")
+              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img23.svg' alt="Imagen decorativa")
           .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
             .cajon.cajon.C02.p-3.h-100
               h5 Ley 1273 de 2009
@@ -252,7 +252,7 @@
         .row.justify-content-center
           .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
             .cajon.cajon.C02.p-0.h-100
-              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img16.svg' alt="Imagen decorativa")
+              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img24.svg' alt="Imagen decorativa")
           .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
             .cajon.cajon.C02.p-3.h-100
               h5 Circular Externa 005 de 2017 (SIC)
@@ -262,7 +262,7 @@
         .row.justify-content-center
           .col-lg-auto.col-3.col-sm-2.px-0.mb-4(data-aos="flip-up")
             .cajon.cajon.C02.p-0.h-100
-              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img16.svg' alt="Imagen decorativa")
+              img.w-100.h-100.my-auto(src='@/assets/curso/temas/tema4/img25.svg' alt="Imagen decorativa")
           .col-lg-9.col-8.px-0.mb-4(data-aos="fade-down")
             .cajon.cajon.C02.p-3.h-100
               h5 CONPES 3701 de 2011
@@ -278,34 +278,34 @@
 
     LineaTiempoE.color-primario.mb-5
       .row.justify-content-center(titulo="01" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Políticas de seguridad de la información
           p Establece las directrices generales que utiliza la organización para demostrar su compromiso con la protección de la información. Estas políticas sirven para orientar las acciones, definir las responsabilidades y reflejar los objetivos que guíen la implementación del SGSI en los diferentes niveles.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img17.svg', alt='Imagen decorativa')
 
       .row.justify-content-center(titulo="02" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Evaluación de riesgos
           p Es el proceso sistemático para la identificación y el análisis de las amenazas potenciales en las que podría verse envuelta la seguridad de los activos de información de una empresa. Permite desarrollar la estimación de la probabilidad y el impacto de los riesgos, facilitando su clasificación y priorización, según su criticidad, lo cual es de suma importancia para tomar decisiones informadas.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img18.svg', alt='Imagen decorativa')
       
       .row.justify-content-center(titulo="03" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Control y mitigación de riesgos
           p Después de que sean identificados y evaluados los riesgos, hay que establecer e implementar medidas con la finalidad de disminuir su impacto o su probabilidad de ocurrencia. Dentro de estas acciones se pueden incluir herramientas tecnológicas, controles físicos y digitales, prácticas organizativas, diseñadas y ajustadas para salvaguardar la información sensible.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img19.svg', alt='Imagen decorativa')
 
       .row.justify-content-center(titulo="04" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Monitorización y revisión
           p Esto implica el seguimiento y monitoreo constante del funcionamiento del SGSI, con el propósito de garantizar que los controles aplicados sean eficaces y pertinentes. Todo esto se logra gracias a la ejecución de auditorías internas, a la revisión de indicadores que se consideren clave en el proceso y al análisis de los incidentes, con el fin de ir promoviendo y realizando ajustes y mejoras continuas.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img20.svg', alt='Imagen decorativa')
 
