@@ -177,7 +177,7 @@ export default {
     {
       tema: 'Activos de información',
       referencia:
-        'Departamento Nacional de Planeación (DNP). (2023). Manual para la identificación de activos de información.',
+        'Departamento Nacional de Planeación (DNP). (2023). <em>Manual para la identificación de activos de información</em>.',
       tipo: 'Documento',
       link:
         'https://colaboracion.dnp.gov.co/CDT/DNP/SIG/M-PG-13%20Manual%20para%20la%20identificación%20de%20activos%20de%20información.Pu.pdf',
@@ -185,7 +185,7 @@ export default {
     {
       tema: 'Activos de información',
       referencia:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2024, 26 de diciembre). Registro de Activos de Información',
+        'Ministerio de Tecnologías de la Información y las Comunicaciones. (2024, 26 de diciembre). <em>Registro de Activos de Información</em>',
       tipo: 'Hojas de calculo',
       link:
         'https://www.mintic.gov.co/portal/inicio/Atencion-y-Servicio-a-la-Ciudadania/Transparencia/135888:Registro-de-Activos-de-Informacion',
@@ -193,7 +193,7 @@ export default {
     {
       tema: 'Activos de información',
       referencia:
-        'Agencia Nacional Digital (AND). (2020). Guía de gestión y clasificación de activos de información.',
+        'Agencia Nacional Digital (AND). (2020). <em>Guía de gestión y clasificación de activos de información</em>.',
       tipo: 'Documento',
       link:
         'https://and.gov.co/sites/default/files/2022-05/Guia_De_Gestion_y_clasificacion_de_activos_de_informacon.pdf',
@@ -201,7 +201,7 @@ export default {
     {
       tema: 'Gestión de riesgo',
       referencia:
-        'Dirección de Impuestos y Aduanas Nacionales (DIAN). (2023). Gestión de Riesgos de Seguridad de la Información.',
+        'Dirección de Impuestos y Aduanas Nacionales (DIAN). (2023). <em>Gestión de Riesgos de Seguridad de la Información</em>.',
       tipo: 'Documento',
       link:
         'https://www.dian.gov.co/atencionciudadano/LMDP/Informacion-Innovacion-y-Tecnologia/Seguridad-de-la-Informacion/Cartillas/CT-IIT-0132.pdf',
@@ -209,7 +209,7 @@ export default {
     {
       tema: 'Gestión de riesgo',
       referencia:
-        'Departamento Nacional de Planeación (DNP). (2022, 26 de julio). Módulo 1: Estructura del SGSI, riesgos de los activos y obligaciones de seguridad de la información [Video]. YouTube.',
+        'Departamento Nacional de Planeación (DNP). (2022, 26 de julio). <em>Módulo 1: Estructura del SGSI, riesgos de los activos y obligaciones de seguridad de la información</em> [Video]. YouTube.',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=O3CwPYPzWzw',
     },
@@ -269,54 +269,56 @@ export default {
   referencias: [
     {
       referencia:
-        'GRCTools. (s.f.). Riesgos IT y Seguridad con el <em>Software</em> GRC inteligente.',
+        'GRCTools. (s.f.). <em>Riesgos IT y Seguridad con el Software GRC inteligente</em>.',
       link:
         'https://grctools.software/soluciones/riesgos/riesgos-it-seguridad-de-la-informacion/',
     },
     {
       referencia:
-        'Grupo Cibernos. (s.f.). ¿Qué es la gestión de riesgos en ciberseguridad?',
+        'Grupo Cibernos. (s.f.). <em>¿Qué es la gestión de riesgos en ciberseguridad?</em>',
       link:
         'https://www.grupocibernos.com/blog/que-es-la-gestion-de-riesgos-en-ciberseguridad',
     },
     {
       referencia:
-        'IBM. (2024a). ¿Qué es la seguridad de la información (InfoSec)?',
+        'IBM. (2024a). <em>¿Qué es la seguridad de la información (InfoSec)?</em>',
       link: 'https://www.ibm.com/mx-es/topics/information-security',
     },
     {
-      referencia: 'IBM. (2024b). ¿Qué es la gestión de riesgos cibernéticos?',
+      referencia:
+        'IBM. (2024b). <em>¿Qué es la gestión de riesgos cibernéticos?</em>',
       link: 'https://www.ibm.com/es-es/topics/cyber-risk-management',
     },
     {
-      referencia: 'It Governance. (2022). ISO 27005.',
+      referencia: 'It Governance. <em>(2022). ISO 27005</em>.',
       link:
         'https://www.itgovernanceusa.com/cyber-security-solutions/iso27001/iso-27005',
     },
     {
-      referencia: 'Kantan. (2024). Definición de SGSI según ISO 27001 2022.',
+      referencia:
+        'Kantan. (2024). <em>Definición de SGSI según ISO 27001 2022</em>.',
       link:
         'https://www.kantansoftware.com/blog/definicion-de-sgsi-segun-iso-27001-2022/',
     },
     {
-      referencia: 'López, A. (2013). SGSI. ISO 27000.',
+      referencia: 'López, A. (2013). <em>SGSI. ISO 27000</em>.',
       link: '',
     },
     {
       referencia:
-        'Microsoft. (s.f.). ¿Qué es la seguridad de la información (InfoSec)?',
+        'Microsoft. (s.f.). <em>¿Qué es la seguridad de la información (InfoSec)</em>?',
       link:
         'https://www.microsoft.com/es-co/security/business/security-101/what-is-information-security-infosec',
     },
     {
       referencia:
-        'Novasep. (s.f.). La seguridad de la información y sus 3 pilares fundamentales.',
+        'Novasep. (s.f.). <em>La seguridad de la información y sus 3 pilares fundamentales</em>.',
       link:
         'https://www.novaseguridad.com.co/seguridad-de-la-informacion-principios/',
     },
     {
       referencia:
-        'Rabitti, G., Khorrami Chokami, A., Coyle, P. & Cohen, R. D. (2025). A taxonomy of cyber risk taxonomies. Risk Analysis An International Journal, 45(2), 376–386.',
+        'Rabitti, G., Khorrami Chokami, A., Coyle, P. & Cohen, R. D. (2025). A taxonomy of cyber risk taxonomies.<em> Risk Analysis An International Journal</em>, 45(2), 376–386.',
       link: 'https://doi.org/10.1111/risa.16629',
     },
   ],
