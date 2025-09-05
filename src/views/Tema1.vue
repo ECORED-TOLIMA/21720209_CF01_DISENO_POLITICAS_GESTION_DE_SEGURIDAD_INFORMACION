@@ -414,11 +414,11 @@
         p.mb-0(data-aos="fade-down") Según la experiencia, naturaleza o actividad de la organización, cada una de ellas podrá definir las escalas de valoración, según su contexto; pero hay que tener en cuenta que una buena escala de valoración permitirá priorizar medidas de protección, basadas en el nivel de criticidad, ayudar a asignar recursos de seguridad en forma eficiente, además de contar con un insumo esencial para la gestión de riesgos. En ese orden de ideas, la clasificación de activos de información por su valoración, tomando de base normas como la ISO/IEC 27005:2022, ISO/IEC 27001 e ISO/IEC 27002, se recomienda trabajarlas con las siguientes escalas de valoración: 
     
     .row.justify-content-center
-      .col-12.mb-4
-        figure.movil
+      .col-12.mb-4.movil
+        figure
           img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen decorativa')
-      .col-lg-10.col-12
-        ImagenInfografica.color-acento-botones.desktop(data-aos="zoom-in")
+      .col-lg-10.col-12.desktop
+        ImagenInfografica.color-acento-botones(data-aos="zoom-in")
           template(v-slot:imagen)
             figure.mb-5
               img(src='@/assets/curso/temas/tema1/img13.svg', alt="Imagen decorativa")

@@ -20,23 +20,25 @@
     
     p.mb-5(data-aos="fade-down") Para comprender mejor que significa gestionar riesgos en seguridad de la información, se proporcionarán unas definiciones desde el punto técnico y desde una visión general y se apoyarán dichos conceptos con ejemplos de la vida cotidiana, realidades que son comunes en las pymes colombianas, de tal manera que se dimensione el porqué de su importancia y se justifique su aplicación: 
 
-    LineaTiempoE.color-primario.mb-5
-      .row.justify-content-center(titulo="01" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Definición técnica
-          p Consiste en identificar, priorizar, controlar y supervisar las amenazas que pueden afectar los sistemas de información y los activos digitales de una organización (IBM, 2024b).
-          p La gestión de riesgos en ciberseguridad es un proceso enfocado en identificar, analizar, medir y controlar los riesgos que afectan la seguridad de la información. Su propósito es anticiparse a las amenazas mediante la implementación de controles preventivos que reduzcan su impacto. Esta gestión se aplica en diversos ámbitos de la organización y requiere que los responsables reconozcan los riesgos que pueden afectar sus objetivos. De hecho, más del 70 % de las empresas ha experimentado problemas relacionados con la ciberseguridad, sin importar su tamaño o sector (Grupo Cibernos, s.f.).
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
-          figure
-            img(src='@/assets/curso/temas/tema3/img02.svg', alt='Imagen decorativa')
+    .row
+      .col-lg-10.col-12
+        LineaTiempoE.color-primario.mb-5
+          .row.justify-content-center(titulo="01" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Definición técnica
+              p Consiste en identificar, priorizar, controlar y supervisar las amenazas que pueden afectar los sistemas de información y los activos digitales de una organización (IBM, 2024b).
+              p La gestión de riesgos en ciberseguridad es un proceso enfocado en identificar, analizar, medir y controlar los riesgos que afectan la seguridad de la información. Su propósito es anticiparse a las amenazas mediante la implementación de controles preventivos que reduzcan su impacto. Esta gestión se aplica en diversos ámbitos de la organización y requiere que los responsables reconozcan los riesgos que pueden afectar sus objetivos. De hecho, más del 70 % de las empresas ha experimentado problemas relacionados con la ciberseguridad, sin importar su tamaño o sector (Grupo Cibernos, s.f.).
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+              figure
+                img(src='@/assets/curso/temas/tema3/img02.svg', alt='Imagen decorativa')
 
-      .row.justify-content-center(titulo="02" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Definición general
-          p La gestión de riesgos en seguridad de la información consiste en identificar los peligros que pueden afectar la información de una empresa, tales como los ataques por internet, los errores humanos o la pérdida de datos, entre otros. Esta gestión sirve para que se puedan tomar decisiones y aplicar medidas que ayuden a prevenir esos problemas antes de que ocurran, protegiendo así la información del negocio y evitando pérdidas o interrupciones.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
-          figure
-            img(src='@/assets/curso/temas/tema3/img03.svg', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="02" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Definición general
+              p La gestión de riesgos en seguridad de la información consiste en identificar los peligros que pueden afectar la información de una empresa, tales como los ataques por internet, los errores humanos o la pérdida de datos, entre otros. Esta gestión sirve para que se puedan tomar decisiones y aplicar medidas que ayuden a prevenir esos problemas antes de que ocurran, protegiendo así la información del negocio y evitando pérdidas o interrupciones.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+              figure
+                img(src='@/assets/curso/temas/tema3/img03.svg', alt='Imagen decorativa')
 
     p.mb-5(data-aos="fade-down") Para comprender mejor cómo se aplica la gestión de riesgos en la seguridad de la información, es útil revisar unos ejemplos desde la realidad de las pymes colombianas; estas situaciones permiten visualizar los riesgos comunes y formas en que pueden prevenirse o disminuirse con acciones sencillas pero efectivas:
 

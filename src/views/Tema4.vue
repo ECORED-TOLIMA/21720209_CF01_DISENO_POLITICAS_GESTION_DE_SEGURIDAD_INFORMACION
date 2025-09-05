@@ -129,11 +129,11 @@
     p.mb-4(data-aos="fade-down") A continuación, se explica cada uno de los pasos que lleva un ciclo de mejora continua bajo el modelo PHVA: 
 
     .row.justify-content-center
-      .col-12.mb-4
-        figure.movil
+      .col-12.mb-4.movil
+        figure
           img(src='@/assets/curso/temas/tema4/img13.svg', alt='Imagen decorativa')
-      .col-lg-10.col-12
-        ImagenInfografica.color-acento-botones.desktop(data-aos="zoom-in")
+      .col-lg-10.col-12.desktop
+        ImagenInfografica.color-acento-botones(data-aos="zoom-in")
           template(v-slot:imagen)
             figure.mb-5
               img(src='@/assets/curso/temas/tema4/img14.svg', alt="Imagen decorativa")
@@ -308,6 +308,41 @@
         .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
           figure
             img(src='@/assets/curso/temas/tema4/img20.svg', alt='Imagen decorativa')
+
+    .row.mb-5
+      .col-lg-10.col-12
+        LineaTiempoE.color-primario
+          .row.justify-content-center(titulo="01" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Políticas de seguridad de la información
+              p Establece las directrices generales que utiliza la organización para demostrar su compromiso con la protección de la información. Estas políticas sirven para orientar las acciones, definir las responsabilidades y reflejar los objetivos que guíen la implementación del SGSI en los diferentes niveles.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+              figure
+                img(src='@/assets/curso/temas/tema4/img17.svg', alt='Imagen decorativa')
+
+          .row.justify-content-center(titulo="02" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Evaluación de riesgos
+              p Es el proceso sistemático para la identificación y el análisis de las amenazas potenciales en las que podría verse envuelta la seguridad de los activos de información de una empresa. Permite desarrollar la estimación de la probabilidad y el impacto de los riesgos, facilitando su clasificación y priorización, según su criticidad, lo cual es de suma importancia para tomar decisiones informadas.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+              figure
+                img(src='@/assets/curso/temas/tema4/img18.svg', alt='Imagen decorativa')
+          
+          .row.justify-content-center(titulo="03" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Control y mitigación de riesgos
+              p Después de que sean identificados y evaluados los riesgos, hay que establecer e implementar medidas con la finalidad de disminuir su impacto o su probabilidad de ocurrencia. Dentro de estas acciones se pueden incluir herramientas tecnológicas, controles físicos y digitales, prácticas organizativas, diseñadas y ajustadas para salvaguardar la información sensible.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+              figure
+                img(src='@/assets/curso/temas/tema4/img19.svg', alt='Imagen decorativa')
+
+          .row.justify-content-center(titulo="04" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Monitorización y revisión
+              p Esto implica el seguimiento y monitoreo constante del funcionamiento del SGSI, con el propósito de garantizar que los controles aplicados sean eficaces y pertinentes. Todo esto se logra gracias a la ejecución de auditorías internas, a la revisión de indicadores que se consideren clave en el proceso y al análisis de los incidentes, con el fin de ir promoviendo y realizando ajustes y mejoras continuas.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+              figure
+                img(src='@/assets/curso/temas/tema4/img20.svg', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-0
       .col-lg-10.col-12
