@@ -69,17 +69,14 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Tipos de riesgo
     
-    .tarjeta.tarjeta--BG01.p-4.p-lg-5.mb-5
-      .col-12
-        .row.justify-content-center
-          .col-12
-            .row.justify-content-center
-              .col-lg-7.col-12.order-lg-1.order-2
-                p(data-aos="fade-down") Al buscar en diferentes fuentes, es fácil deducir que hay múltiples formas de clasificar los riesgos de seguridad de la información, esto se da por la diversidad de enfoques y contextos organizacionales. Lo variado de estas clasificaciones es porque los riesgos pueden provenir de ámbitos técnicos, humanos, físicos, procedimentales o de terceros, según el objetivo o la experiencia de cada modelo de gestión. Esta multiplicidad de perspectivas se confirma en estudios académicos que revisan y comparan las diferentes taxonomías de riesgos en entornos de seguridad de la información (Rabitti et al., 2025).
-                p(data-aos="fade-down") Por lo anterior, se relaciona una clasificación detallada de los tipos de riesgos en seguridad de la información, donde se presenta una visión amplia y actualizada de las principales amenazas, tales como ciberataques, brechas de seguridad, fallos tecnológicos o riesgos de cumplimiento, que reflejan la diversidad de escenarios que enfrentan las organizaciones en la práctica y cuya perspectiva aplicada facilita la identificación y el manejo de riesgos en entornos reales (GRCTools, s.f.): 
-              .col-lg-4.col-12.order-lg-2.order-1.mb-3
-                figure(data-aos="fade-up")
-                  img(src='@/assets/curso/temas/tema3/img05.png', alt='Imagen decorativa')
+    .BGM01.px-md-5.px-4.mb-5
+      .row.justify-content-center
+        .col-lg-7.col-12.order-lg-1.order-2
+          p(data-aos="fade-down") Al buscar en diferentes fuentes, es fácil deducir que hay múltiples formas de clasificar los riesgos de seguridad de la información, esto se da por la diversidad de enfoques y contextos organizacionales. Lo variado de estas clasificaciones es porque los riesgos pueden provenir de ámbitos técnicos, humanos, físicos, procedimentales o de terceros, según el objetivo o la experiencia de cada modelo de gestión. Esta multiplicidad de perspectivas se confirma en estudios académicos que revisan y comparan las diferentes taxonomías de riesgos en entornos de seguridad de la información (Rabitti et al., 2025).
+          p.mb-0(data-aos="fade-down") Por lo anterior, se relaciona una clasificación detallada de los tipos de riesgos en seguridad de la información, donde se presenta una visión amplia y actualizada de las principales amenazas, tales como ciberataques, brechas de seguridad, fallos tecnológicos o riesgos de cumplimiento, que reflejan la diversidad de escenarios que enfrentan las organizaciones en la práctica y cuya perspectiva aplicada facilita la identificación y el manejo de riesgos en entornos reales (GRCTools, s.f.): 
+        .col-lg-4.col-8.order-lg-2.order-1.mb-3
+          figure(data-aos="fade-up")
+            img(src='@/assets/curso/temas/tema3/img05.png', alt='Imagen decorativa')
     
     .tarjeta.tarjeta--BG03.p-4.p-md-5.mb-5
       LineaTiempoC.color-acento-botones(text-small)(data-aos="flip-up")
@@ -136,45 +133,45 @@
       .col-lg-10.col-12
         p.mb-0(data-aos="fade-down") Para mayor comprensión de los tipos de riesgos compartidos previamente, se exponen ejemplos situacionales dentro de una pyme que permiten entender mejor cada uno de ellos: 
     
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--C04")
+    AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C04")
       .row.justify-content-center.p-4(titulo="Ciberseguridad")
         .col-lg-6.order-lg-1.order-2
-          p Una tienda virtual de productos artesanales es víctima de un ataque de <em>ransomware</em> que cifra toda su base de datos de clientes, pedidos e inventario. Los ciberdelincuentes solicitan un rescate en criptomonedas para liberar la información. La empresa no contaba con copias de seguridad actualizadas y se ve obligada a suspender sus operaciones por varios días, perdiendo ventas y afectando su reputación.
+          p.mb-0 Una tienda virtual de productos artesanales es víctima de un ataque de <em>ransomware</em> que cifra toda su base de datos de clientes, pedidos e inventario. Los ciberdelincuentes solicitan un rescate en criptomonedas para liberar la información. La empresa no contaba con copias de seguridad actualizadas y se ve obligada a suspender sus operaciones por varios días, perdiendo ventas y afectando su reputación.
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img12.jpg', alt='Imagen decorativa')
       .row.justify-content-center.p-4(titulo="Infraestructura tecnológica")
         .col-lg-6.order-lg-1.order-2
-          p Un taller industrial sufre un daño eléctrico por un cortocircuito, lo cual afecta el servidor donde almacena cotizaciones, facturación y archivos técnicos de los equipos. La ausencia de un sistema de respaldo de energía y una copia de seguridad externa genera la pérdida total de información crítica para la operación del negocio.
+          p.mb-0 Un taller industrial sufre un daño eléctrico por un cortocircuito, lo cual afecta el servidor donde almacena cotizaciones, facturación y archivos técnicos de los equipos. La ausencia de un sistema de respaldo de energía y una copia de seguridad externa genera la pérdida total de información crítica para la operación del negocio.
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img13.jpg', alt='Imagen decorativa')
       .row.justify-content-center.p-4(titulo="Acceso y autenticación")
         .col-lg-6.order-lg-1.order-2
-          p En un taller de diseño gráfico, varios colaboradores comparten la misma contraseña para acceder al servidor donde guardan los proyectos de clientes. Un exempleado, al que no se le revocaron los permisos, accede de forma remota y elimina varios archivos, causando retrasos en entregas importantes y pérdidas económicas.
+          p.mb-0 En un taller de diseño gráfico, varios colaboradores comparten la misma contraseña para acceder al servidor donde guardan los proyectos de clientes. Un exempleado, al que no se le revocaron los permisos, accede de forma remota y elimina varios archivos, causando retrasos en entregas importantes y pérdidas económicas.
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img14.jpg', alt='Imagen decorativa')
       .row.justify-content-center.p-4(titulo="Cumplimiento y regulaciones")
         .col-lg-6.order-lg-1.order-2
-          p La clínica Perritos recolecta datos personales de sus clientes, sin contar con un aviso de privacidad ni mecanismos claros de protección de la información. Durante una inspección, es sancionada por la Superintendencia de Industria y Comercio, por incumplir la Ley 1581 de 2012 sobre protección de datos personales, enfrentando una multa y la obligación de implementar controles en poco tiempo.
+          p.mb-0 La clínica Perritos recolecta datos personales de sus clientes, sin contar con un aviso de privacidad ni mecanismos claros de protección de la información. Durante una inspección, es sancionada por la Superintendencia de Industria y Comercio, por incumplir la Ley 1581 de 2012 sobre protección de datos personales, enfrentando una multa y la obligación de implementar controles en poco tiempo.
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img15.jpg', alt='Imagen decorativa')
       .row.justify-content-center.p-4(titulo="Riesgos humanos")
         .col-lg-6.order-lg-1.order-2
-          p En Cauchos El Estirón, un trabajador sin formación en gestión documental, elimina sin querer, una carpeta compartida en la nube, que contenía planos y diseños de un nuevo cliente. Esta pérdida obliga a repetir el trabajo desde cero, afectando la entrega y la confianza del cliente.
+          p.mb-0 En Cauchos El Estirón, un trabajador sin formación en gestión documental, elimina sin querer, una carpeta compartida en la nube, que contenía planos y diseños de un nuevo cliente. Esta pérdida obliga a repetir el trabajo desde cero, afectando la entrega y la confianza del cliente.
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img16.jpg', alt='Imagen decorativa')
       .row.justify-content-center.p-4(titulo="Terceros")
         .col-lg-6.order-lg-1.order-2
-          p La distribuidora Frescos Bosconia, contrata a un proveedor externo para desarrollar una aplicación móvil de pedidos. El proveedor deja una vulnerabilidad abierta en el sistema, la cual es aprovechada por atacantes para robar información de clientes y suplantar pedidos. La empresa, al no haber firmado un contrato con cláusulas claras de seguridad, enfrenta la situación sola.
+          p.mb-0 La distribuidora Frescos Bosconia, contrata a un proveedor externo para desarrollar una aplicación móvil de pedidos. El proveedor deja una vulnerabilidad abierta en el sistema, la cual es aprovechada por atacantes para robar información de clientes y suplantar pedidos. La empresa, al no haber firmado un contrato con cláusulas claras de seguridad, enfrenta la situación sola.
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           figure
             img(src='@/assets/curso/temas/tema3/img17.jpg', alt='Imagen decorativa')
     
-    .tarjeta.tarjeta--BG02.p-4.p-lg-5.mb-0
+    .tarjeta.tarjeta--BG02.px-4.px-lg-5.py-2
       .col-12
         .row.justify-content-center
           .col-12
@@ -247,8 +244,8 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img24.jpg', alt='Imagen decorativa')
     
-    .row.justify-content-center.mb-5
-      .col-lg-10.col-12
+    .row.justify-content-center.mb-4
+      .col-lg-10
         p.mb-0(data-aos="fade-down") Aplicar estas fases de la gestión de riesgos, fortalece en las diferentes empresas u organizaciones sus capacidades para anticiparse y responder efectivamente ante posibles amenazas que puedan afectar la información. Es una manera de enfocarlas para que se mantengan en prevención y en mejora continua; además de proteger los activos críticos y de alinear la seguridad con los objetivos estratégicos, especialmente en un mundo en donde los procesos en su mayoría se están manejando de forma digital y donde se viven adoptando diferentes tecnologías, que hacen que los procesos sean cambiantes.
       
 

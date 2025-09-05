@@ -20,34 +20,33 @@
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col
         .tarjeta--container.row
-          .col-xl.col-lg-6.tarjeta.tarjeta--C01.p-5
+          .col-lg-6.tarjeta.color-primario.p-5
             .row.justify-content-center.mb-3
-              .col-lg-4.col-4
+              .col-lg-4.col-6
                 figure(data-aos="fade-up")
                   img(src='@/assets/curso/temas/tema1/img02.svg', alt='Imagen decorativa')(style="width: 85%")
               
             h4.text-center.text-white(data-aos="fade-down") Definición técnica
             p.mb-0.text-white(data-aos="fade-down") Hablar de un activo de información, es referirse a cualquier recurso que tenga valor para la organización y que se encuentre directa o indirectamente en el ciclo de vida de la información (teniendo en cuenta la creación, el procesamiento, el almacenamiento, la transmisión y/o la destrucción si es el caso), para desarrollar el modelo de negocio. Aquí se incluyen elementos tangibles e intangibles, entre los que se pueden nombrar las bases de datos, los sistemas de información, libros contables, documentos físicos o digitales, procedimientos, manuales, personal, infraestructura y conocimiento organizacional, entre otros.
-
-          .col-xl.col-lg-6.tarjeta.tarjeta--C02.p-5
+          .col-lg-6.tarjeta.color-secundario.p-5
             .row.justify-content-center.mb-3
-              .col-lg-4.col-4
+              .col-lg-4.col-6
                 figure(data-aos="fade-up")
                   img(src='@/assets/curso/temas/tema1/img03.svg', alt='Imagen decorativa')(style="width: 85%")
               
             h4.text-center.text-white(data-aos="fade-down") Definición general
             p.mb-0.text-white(data-aos="fade-down") Se puede llamar activo de información a todos aquellos recursos que usan las empresas para guardar, manejar o compartir información de interés para la organización. Hay que tener en cuenta, que la importancia no solo radica en los computadores o los archivos contenidos, aquí también entran los manuales del trabajo, las hojas de cálculo, los correos, las claves, incluso la experiencia y el conocimiento que tienen los empleados sobre su trabajo y todo aquello que tenga algún grado de información de la empresa y que permita su funcionamiento.
     
-    .tarjeta.tarjeta--BG01.p-4.p-lg-5.mb-0
+    .tarjeta.tarjeta--BG01.px-lg-5.px-4.py-4.mb-0
       .col-12
         .row.justify-content-center
-          .col-lg-10.col-12
+          .col-lg-10
             .row.justify-content-center
-              .col-lg-6.col-12.order-lg-1.order-2
+              .col-lg-6.order-lg-1.order-2
                 p(data-aos="fade-down") Todos estos activos son importantes para que la empresa funcione correctamente, de ahí que se debe garantizar su seguridad; de lo contrario, si se presenta afectación en alguno de ellos, se podrían presentar pérdidas para la organización, que podrían ir desde obstruir un proceso, demorar un servicio, cancelar un negocio, hasta la liquidación misma de la actividad comercial.
                 p(data-aos="fade-down") Los activos de información son recursos que contienen datos valiosos para la organización y para la comunidad, por ello todas las empresas tienen que tenerlos identificados, actualizados y protegidos.
-                p(data-aos="fade-down") Los activos de información se clasifican en diferentes tipos según su naturaleza. Esta tipología facilita su identificación, protección y gestión adecuada dentro de las organizaciones.
-              .col-lg-6.col-12.order-lg-2.order-1.mb-3
+                p.mb-0(data-aos="fade-down") Los activos de información se clasifican en diferentes tipos según su naturaleza. Esta tipología facilita su identificación, protección y gestión adecuada dentro de las organizaciones.
+              .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
                 figure(data-aos="fade-up")
                   img(src='@/assets/curso/temas/tema1/img04.png', alt='Imagen decorativa')
     
@@ -140,9 +139,9 @@
         figcaption Elaboración propia con base en la norma ISO/IEC 27002
     
     .row.justify-content-center.mb-0
-      .col-lg-10.col-12
-        .cajon.cajon.C01.color-primario.p-4
-          p.mb-0(data-aos="fade-down") Para clasificar los activos de información en una pyme, se recomienda aplicar una norma o estándar de base que permita seguir unas directrices, con el fin de facilitar la tarea y llevar una hoja de ruta que sirva de guía. 
+      .col-lg-10.col-12(data-aos="fade-left")
+        .cajon.color-primario.p-4
+          p.mb-0 Para clasificar los activos de información en una pyme, se recomienda aplicar una norma o estándar de base que permita seguir unas directrices, con el fin de facilitar la tarea y llevar una hoja de ruta que sirva de guía. 
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -151,9 +150,9 @@
     p.mb-5(data-aos="fade-down") El registro de activos de información, es el proceso que se realiza dentro de la empresa u organización, para identificar, documentar y mantener actualizada toda la información relacionada con los activos que contienen, procesan o respaldan datos que son de interés para la actividad comercial. A parte de tener conocimiento de los activos que existen, con el registro también se busca saber dónde se encuentran, quién los utiliza, quién los administra y qué valor tienen esos activos para la pyme.
 
     .row.justify-content-center
-      .col-12.col-lg-11
+      .col-lg-11
         .row.justify-content-center.mb-5(style="display: flex; width: 100%; margin: auto;")
-          .col-lg-7.col-12.order-lg-2.order-2
+          .col-lg-7.order-lg-2.order-2
             p.mb-2(data-aos="fade-down") Con un buen registro de activos de información se puede:
             ul.lista-ul--color.mb-0(data-aos="fade-down")
               li.mb-2
@@ -171,48 +170,45 @@
               li.mb-2
                 i.fas.fa-chevron-right
                 | Facilitar las auditorías y controles, especialmente cuando se cuenta con una fuente actualizada y confiable de los activos de información.
-          .col-lg-4.col-md-7.col-12.mb-3.order-lg-1.order-1.mb-lg-0
+          .col-lg-4.col-md-6.col-8.mb-3.order-lg-1.order-1.mb-lg-0
             .row.justify-content-center(data-aos="flip-up")
               .col
                 figure
                   img(src='@/assets/curso/temas/tema1/img06.svg', alt='Imagen decorativa')
 
-    .tarjeta.tarjeta--BG02.p-4.p-lg-5.mb-5
-      .col-12
+    .tarjeta.tarjeta--BG02.px-lg-5.px-4.mb-5
+      p.mb-4(data-aos="fade-down") A continuación, se comparten los campos que se recomiendan para registrar los activos de información. Cabe destacar que muchas veces, estos campos pueden variar según las directrices de las empresas o la norma utilizada, pero por lo general tratan la misma información y son de gran ayuda para el inventario de activos:
+      .col-lg-10
         .row.justify-content-center
-          .col-12
-            p.mb-4(data-aos="fade-down") A continuación, se comparten los campos que se recomiendan para registrar los activos de información. Cabe destacar que muchas veces, estos campos pueden variar según las directrices de las empresas o la norma utilizada, pero por lo general tratan la misma información y son de gran ayuda para el inventario de activos:
-            .col-lg-10.col-12
-              .row.justify-content-center
-                .col-lg-6.col-12.order-lg-1.order-2
-                  ul.lista-ul--color.mb-0(data-aos="fade-down")
-                    li.mb-2
-                      i.fas.fa-asterisk
-                      | Código o identificación del activo.
-                    li.mb-2
-                      i.fas.fa-asterisk
-                      | Tipo de activo.
-                    li.mb-2
-                      i.fas.fa-asterisk
-                      | Descripción.
-                    li.mb-2
-                      i.fas.fa-asterisk
-                      | Ubicación.
-                    li.mb-2
-                      i.fas.fa-asterisk
-                      | Responsable del activo.
-                    li.mb-2
-                      i.fas.fa-asterisk
-                      | Valor o criticidad.
-                    li.mb-2
-                      i.fas.fa-asterisk
-                      | Clasificación de seguridad (confidencial, pública, restringida...).
-                    li.mb-3
-                      i.fas.fa-asterisk
-                      | Estado de conservación o uso.
-                .col-lg-5.col-12.order-lg-2.order-1.mb-3
-                  figure(data-aos="fade-up")
-                    img(src='@/assets/curso/temas/tema1/img07.jpg', alt='Imagen decorativa')
+          .col-lg-6.order-lg-1.order-2
+            ul.lista-ul--color.mb-0
+              li.mb-2(data-aos="fade-left")
+                i.fas.fa-asterisk
+                | Código o identificación del activo.
+              li.mb-2(data-aos="fade-left")
+                i.fas.fa-asterisk
+                | Tipo de activo.
+              li.mb-2(data-aos="fade-left")
+                i.fas.fa-asterisk
+                | Descripción.
+              li.mb-2(data-aos="fade-left")
+                i.fas.fa-asterisk
+                | Ubicación.
+              li.mb-2(data-aos="fade-left")
+                i.fas.fa-asterisk
+                | Responsable del activo.
+              li.mb-2(data-aos="fade-left")
+                i.fas.fa-asterisk
+                | Valor o criticidad.
+              li.mb-2(data-aos="fade-left")
+                i.fas.fa-asterisk
+                | Clasificación de seguridad (confidencial, pública, restringida...).
+              li(data-aos="fade-left")
+                i.fas.fa-asterisk
+                | Estado de conservación o uso.
+          .col-lg-5.col-12.order-lg-2.order-1.mb-3
+            figure(data-aos="fade-up")
+              img(src='@/assets/curso/temas/tema1/img07.jpg', alt='Imagen decorativa')
 
     p.mb-5(data-aos="fade-down") Con el siguiente ejemplo, se da una idea de cómo se podría llenar una tabla que contenga el registro de los activos de información de una pyme:
 
@@ -375,7 +371,7 @@
     
     p.mb-5(data-aos="fade-down") Como se percibe en los ejemplos anteriores, los campos del registro no necesitan llenarse exclusivamente con datos tomados de listas estandarizadas. Lo más importante es que cada pyme pueda comenzar a organizar su inventario de activos, según su realidad, construyendo un diccionario de datos propio que oriente la clasificación. En este proceso, es habitual que se nombren o clasifiquen activos por primera vez, lo cual contribuye al fortalecimiento de su gestión informacional.
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-0(data-aos="flip-up")
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img08.jpg')})`}"
       )

@@ -66,7 +66,7 @@
             .col-12.mb-4.mb-md-0.mb-0
               .tarjeta.tarjeta--blanca.p-4
                 h5 Ejemplos prácticos en pymes:
-                ul.lista-ul.mb-0(data-aos="fade-down")
+                ul.lista-ul.mb-0
                   li
                     i.lista-ul__vineta
                     p.mb-0 Uso de contraseñas seguras para acceso a sistemas.
@@ -76,7 +76,7 @@
                   li
                     i.lista-ul__vineta
                     p.mb-0 Implementar roles diferenciados en <em>software</em> de gestión.
-            .col-12.mb-0(data-aos="fade-up")
+            .col-12.mb-0
               figure
                 img(src='@/assets/curso/temas/tema2/img05.jpg', alt='Imagen decorativa')
 
@@ -86,7 +86,7 @@
             .col-12.mb-4.mb-md-0.mb-0
               .tarjeta.tarjeta--blanca.p-4
                 h5 Ejemplos prácticos en pymes:
-                ul.lista-ul.mb-0(data-aos="fade-down")
+                ul.lista-ul.mb-0
                   li
                     i.lista-ul__vineta
                     | Copias de respaldo que permiten recuperar versiones anteriores de documentos.
@@ -96,7 +96,7 @@
                   li
                     i.lista-ul__vineta
                     | Validación de formatos o formularios antes de ingresarlos en una base de datos.
-            .col-12.mb-0(data-aos="fade-up")
+            .col-12.mb-0
               figure
                 img(src='@/assets/curso/temas/tema2/img06.jpg', alt='Imagen decorativa')
 
@@ -106,7 +106,7 @@
             .col-12.mb-4.mb-md-0.mb-0
               .tarjeta.tarjeta--blanca.p-4
                 h5 Ejemplos prácticos en pymes:              
-                ul.lista-ul.mb-0(data-aos="fade-down")
+                ul.lista-ul.mb-0
                   li
                     i.lista-ul__vineta
                     | Sistemas de respaldo energético (UPS) para evitar pérdida de datos en apagones.
@@ -116,15 +116,14 @@
                   li
                     i.lista-ul__vineta
                     | Copias de seguridad periódicas y accesibles en caso de incidentes.
-            .col-12.mb-0(data-aos="fade-up")
+            .col-12.mb-0
               figure
                 img(src='@/assets/curso/temas/tema2/img07.jpg', alt='Imagen decorativa')
       
-    .row.justify-content-center.mb-0
-      .col-lg-10.col-12
-        .cajon.cajon.C01.color-primario.p-4
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        .cajon.color-primario.p-4
           p.mb-0(data-aos="fade-down") Estos principios tienen que reflejarse en las políticas de seguridad de la información, asegurando que cada uno esté presente en los lineamientos generales y específicos. Por ejemplo, en una pyme, una política de contraseña contribuye a la confidencialidad, una política de respaldo fortalece la disponibilidad y una política de control de cambios protege la integridad de la información.
-
 
 </template>
 
