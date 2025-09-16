@@ -85,7 +85,7 @@
                   .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img08.svg' alt='AvatarTop')
                 h5 Participación de todos los niveles de la organización
-                p.mb-0 Es importante y a la vez recomendable para que se puedan fomentar una cultura organizacional de seguridad y corresponsabilidad, entre todos los actores; de lo contrario, no tendría gracia la implementación del SGSI, si lo planteado no se va a aplicar.
+                p.mb-0 Es importante y a la vez recomendable para que se pueda fomentar una cultura organizacional de seguridad y corresponsabilidad, entre todos los actores; de lo contrario, no tendría gracia la implementación del SGSI, si lo planteado no se va a aplicar.
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2

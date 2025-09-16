@@ -54,7 +54,7 @@
           img(src='@/assets/curso/temas/tema2/img04.png', alt='Imagen decorativa')
     
     p(data-aos="fade-down") Toda gestión de la información en una empresa debe fundamentarse en tres principios esenciales (la confidencialidad, la integridad y la disponibilidad de la información), para poder cumplir con los criterios de eficiencia y eficacia, y así garantizar un sistema seguro y confiable (Novasep, s.f.). Estos principios constituyen la base sobre la cual se diseñan las políticas, controles y procedimientos para proteger los activos de información en una organización.
-    p(data-aos="fade-down") También hay se debe tener en cuenta que estos principios, no solo guían la implementación técnica de medidas de seguridad, sino que también ayudan en la toma de decisiones alineadas con los objetivos estratégicos y la normativa de la empresa.
+    p(data-aos="fade-down") También se debe tener en cuenta que estos principios, no solo guían la implementación técnica de medidas de seguridad, sino que también ayudan en la toma de decisiones alineadas con los objetivos estratégicos y la normativa de la empresa.
     p.mb-5(data-aos="fade-down") Comprender estos tres pilares, es clave para establecer medidas efectivas, así que a continuación, se describen y se sustentan con ejemplos cada uno de ellos:
 
     .row.justify-content-center.mb-5
