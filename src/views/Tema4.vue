@@ -85,7 +85,7 @@
                   .col-lg-6.col-sm-4.col-6
                     img(src='@/assets/curso/temas/tema4/img08.svg' alt='AvatarTop')
                 h5 Participación de todos los niveles de la organización
-                p.mb-0 Es importante y a la vez recomendable para que se puede fomentar una cultura organizacional de seguridad y corresponsabilidad, entre todos los actores; de lo contrario, no tendría gracia la implementación del SGSI, si lo planteado no se va a aplicar.
+                p.mb-0 Es importante y a la vez recomendable para que se puedan fomentar una cultura organizacional de seguridad y corresponsabilidad, entre todos los actores; de lo contrario, no tendría gracia la implementación del SGSI, si lo planteado no se va a aplicar.
 
               .tarjeta.tarjeta--blanca.p-3
                 .row.justify-content-center.mb-2
@@ -276,38 +276,38 @@
 
     p.mb-5(data-aos="fade-down") Para poner a funcionar un SGSI de manera que trabaje efectiva y eficazmente, es necesario que se comprendan ciertos componentes que son claves y que se hacen esenciales para la construcción de una estructura sólida, que permita salvaguardar de forma adecuada la información en el entorno organizacional. A continuación, se presentan los principales componentes, de acuerdo a lo expuesto por Kantan (2024):
 
-    LineaTiempoE.color-primario.mb-5
-      .row.justify-content-center(titulo="01" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Políticas de seguridad de la información
-          p.mb-0 Establece las directrices generales que utiliza la organización para demostrar su compromiso con la protección de la información. Estas políticas sirven para orientar las acciones, definir las responsabilidades y reflejar los objetivos que guíen la implementación del SGSI en los diferentes niveles.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
-          figure
-            img(src='@/assets/curso/temas/tema4/img17.svg', alt='Imagen decorativa')
+    //- LineaTiempoE.color-primario.mb-5
+    //-   .row.justify-content-center(titulo="01" subtitulo="")
+    //-     .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+    //-       h4 Políticas de seguridad de la información
+    //-       p.mb-0 Establece las directrices generales que utiliza la organización para demostrar su compromiso con la protección de la información. Estas políticas sirven para orientar las acciones, definir las responsabilidades y reflejar los objetivos que guíen la implementación del SGSI en los diferentes niveles.
+    //-     .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema4/img17.svg', alt='Imagen decorativa')
 
-      .row.justify-content-center(titulo="02" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Evaluación de riesgos
-          p.mb-0 Es el proceso sistemático para la identificación y el análisis de las amenazas potenciales en las que podría verse envuelta la seguridad de los activos de información de una empresa. Permite desarrollar la estimación de la probabilidad y el impacto de los riesgos, facilitando su clasificación y priorización, según su criticidad, lo cual es de suma importancia para tomar decisiones informadas.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
-          figure
-            img(src='@/assets/curso/temas/tema4/img18.svg', alt='Imagen decorativa')
+    //-   .row.justify-content-center(titulo="02" subtitulo="")
+    //-     .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+    //-       h4 Evaluación de riesgos
+    //-       p.mb-0 Es el proceso sistemático para la identificación y el análisis de las amenazas potenciales en las que podría verse envuelta la seguridad de los activos de información de una empresa. Permite desarrollar la estimación de la probabilidad y el impacto de los riesgos, facilitando su clasificación y priorización, según su criticidad, lo cual es de suma importancia para tomar decisiones informadas.
+    //-     .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema4/img18.svg', alt='Imagen decorativa')
       
-      .row.justify-content-center(titulo="03" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Control y mitigación de riesgos
-          p.mb-0 Después de que sean identificados y evaluados los riesgos, hay que establecer e implementar medidas con la finalidad de disminuir su impacto o su probabilidad de ocurrencia. Dentro de estas acciones se pueden incluir herramientas tecnológicas, controles físicos y digitales, prácticas organizativas, diseñadas y ajustadas para salvaguardar la información sensible.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
-          figure
-            img(src='@/assets/curso/temas/tema4/img19.svg', alt='Imagen decorativa')
+    //-   .row.justify-content-center(titulo="03" subtitulo="")
+    //-     .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+    //-       h4 Control y mitigación de riesgos
+    //-       p.mb-0 Después de que sean identificados y evaluados los riesgos, hay que establecer e implementar medidas con la finalidad de disminuir su impacto o su probabilidad de ocurrencia. Dentro de estas acciones se pueden incluir herramientas tecnológicas, controles físicos y digitales, prácticas organizativas, diseñadas y ajustadas para salvaguardar la información sensible.
+    //-     .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema4/img19.svg', alt='Imagen decorativa')
 
-      .row.justify-content-center(titulo="04" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Monitorización y revisión
-          p.mb-0 Esto implica el seguimiento y monitoreo constante del funcionamiento del SGSI, con el propósito de garantizar que los controles aplicados sean eficaces y pertinentes. Todo esto se logra gracias a la ejecución de auditorías internas, a la revisión de indicadores que se consideren clave en el proceso y al análisis de los incidentes, con el fin de ir promoviendo y realizando ajustes y mejoras continuas.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
-          figure
-            img(src='@/assets/curso/temas/tema4/img20.svg', alt='Imagen decorativa')
+    //-   .row.justify-content-center(titulo="04" subtitulo="")
+    //-     .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+    //-       h4 Monitorización y revisión
+    //-       p.mb-0 Esto implica el seguimiento y monitoreo constante del funcionamiento del SGSI, con el propósito de garantizar que los controles aplicados sean eficaces y pertinentes. Todo esto se logra gracias a la ejecución de auditorías internas, a la revisión de indicadores que se consideren clave en el proceso y al análisis de los incidentes, con el fin de ir promoviendo y realizando ajustes y mejoras continuas.
+    //-     .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-up")
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema4/img20.svg', alt='Imagen decorativa')
 
     .row.mb-5
       .col-lg-10.col-12
